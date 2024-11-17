@@ -1,3 +1,12 @@
+# Build Docker Image
+docker build -t food-app . 
+
+# Run Docker Container
+docker run -p 3000:3000 food-app
+
+# Run Docker Compose
+docker compose up
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
